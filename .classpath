@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="image"/>
+	<classpathentry kind="src" path="jars"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/p/Desktop/Desktop/java/JAVA-Softwares/Mysql-Software/mysql-connector-java-5.1.5-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/p/Desktop/project/jcalendar-1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/p/Desktop/project/rs2xml.jar"/>
+	<classpathentry kind="lib" path="C:/Users/p/Desktop/project/activation.jar"/>
+	<classpathentry kind="lib" path="C:/Users/p/Desktop/project/javax.mail.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

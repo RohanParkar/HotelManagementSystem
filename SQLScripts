@@ -1,0 +1,22 @@
+create database myrohan;
+
+use myrohan;
+ 
+create table adminlogin (username varchar(10),password varchar(10));
+
+insert into adminlogin values('admin','admin');
+
+create table feedback(username varchar(50), review varchar(2000), x varchar(5),rating varchar(2));
+
+create table l0ginregister(name varchar(100),gender varchar(10),DOB varchar(15),mobile varchar(10),email varchar(100),usernme varchar(50),password varchar(50));
+
+create table payement(cardno varchar(20),month varchar(4),year varchar(4),cvv varchar(4));
+
+insert into payement values('12345678','11','22','123');
+insert into payement values('23456789','11','22','234');
+insert into payement values('34567890','11','22','456');
+
+
+create table roomdata(no varchar(10),type varchar(15),cost int,avail varchar(15));
+
+create table roombook(username varchar(50),checkin varchar(15),checkout varchar(15),roomno varchar(10),roomtype varchar(15),roomch varchar(10),foodch varchar(10),servicech varchar(10),gst varchar(10),totalch varchar(10));
